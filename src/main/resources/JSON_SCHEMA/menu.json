@@ -1,0 +1,52 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "categoryName": {
+        "type": "string"
+      },
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          },
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "img": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "types": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "ingredients": {
+              "type": "array",
+              "items": {
+                "name": {
+                  "type": "string"
+                },
+                "isAllergen": {
+                  "type": "boolean"
+                },
+                "percentage": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

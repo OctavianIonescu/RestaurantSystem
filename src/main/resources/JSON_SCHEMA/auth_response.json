@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "type": "object",
+  "properties": {
+    "message":{
+      "type":"string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "username":{
+      "type": "string"
+    },
+    "isManager": {
+      "type": "boolean"
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "key": {
+          "type": "number"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

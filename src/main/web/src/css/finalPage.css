@@ -1,0 +1,43 @@
+.finalPage {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.finalPage>.button-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.finalPage>.button-bar>* {
+  flex-grow: 1;
+}
+
+.finalPage.inverted {
+  background-color: black;
+  color: white;
+}
+
+.finalPage.inverted button {
+  background-color: white;
+  color: black;
+}
+
+.fullscreen {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+.fullscreen>*{
+  flex-grow: 1;
+}

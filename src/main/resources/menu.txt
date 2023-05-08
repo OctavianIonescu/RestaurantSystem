@@ -1,0 +1,25 @@
+1,1,Chicken Nachos,crispy nachos with crispy chicken,https://i.ibb.co/rv7bg9r/nachos1.jpg,123
+2,1,Grilled Shrimp skewers,shrimp in a chipotle marinade served with chipotle aioli,https://i.ibb.co/SVJCdW1/Garlic-Grilled-Shrimp-Skewers-5.jpg,1234
+3,1,Chicken Wings,made in avacado crema sauce,https://i.ibb.co/ZcSBJ8V/wing.jpg,224
+4,1,Potato Wedges,crispy garlic based oven cooked potato wedges,https://i.ibb.co/TtmQBy5/baked-potato-wedges-11.jpg,335
+5,2,Mexican Steak,steak infused with bold mexican flavours into tender grilled meat.,https://i.ibb.co/LpSMS8Q/steak.jpg,345
+6,2,Chicken Enchiladas,stuffed with shredded chicken and cheese,https://i.ibb.co/xmy2VRL/echidilas.jpg,222
+7,2,Chicken Fajita, chicken fajita made in super flavourful and bursting with mexican seasoning,https://i.ibb.co/FnJvG8s/chicken-fajita.jpg,111
+8,2,Beef Fajita,beef fajita made in super flavourful and bursting with mexican seasoning,https://i.ibb.co/h91KgLw/beef-fajita.jpg,435
+9,2,Pepper Steak,strips of beef and bell peppers are stir fried in a wok to create a delicious 2 dish,https://i.ibb.co/Rv951km/pepper-steak.jpg,5678
+10,2,Classic Lasagna,please your palate with our classic lassagna,https://i.ibb.co/zH3P4kb/lasagna.jpg,765
+11,2,Mexican Burger,juicy beef mexicanburger,https://i.ibb.co/BsrLhF7/burger.jpg,876
+12,2,Crispy pork Carnitas,these will be the best pork tacos you've had!,https://i.ibb.co/Fsgs2PH/carnitas.jpg,2345
+13,3,Apple Burrito,apple pie in the mexican way!,https://i.ibb.co/XCPJhcg/apple-burrito.jpg,121,
+14,3,Flan,mexican custard,https://i.ibb.co/1XBjLPZ/flan.jpg,13579,
+15,3,Churros,hot crispy mexican churros dipped in a luscious chocolate sauce,https://i.ibb.co/p3PkJ0P/churros.jpg,534
+16,3,Sopapilla, delicious treat that you would never regret, https://i.ibb.co/mBmvGdk/sopapilla.jpg,6575
+17,4,Coca-cola,bottle of coke, https://i.ibb.co/zZyNgj7/cocacola.jpg,753
+18,4,Sprite,bottle of sprite,https://i.ibb.co/jDymH1J/sprite.jpg,642
+19,4,Water,refresh your throat,https://i.ibb.co/mh62zYH/water.jpg,876
+20,4,Beer,cold pint of beer,https://i.ibb.co/0CcZyTQ/beer.jpg,788
+21,4,Wine,Mexican popular wine,https://i.ibb.co/2MVjdJt/wine.jpg,222
+22,4,lemonade,Sip of classic lemonade from a frosty glass,https://i.ibb.co/6ZwxMgZ/lemonade.jpg,765
+23,5,ice cream,bowl of ice cream,https://i.ibb.co/dm55NkN/ice-cream.jpg,2345
+24,5,Brownie,freshly baked chocolate brownie,https://i.ibb.co/gRjWBx8/brownie.jpg,987
+25,5,Coleslaw,serve this coleslaw as a side dish,https://i.ibb.co/mHg7cJ2/coleslaw.jpg,223

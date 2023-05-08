@@ -1,0 +1,7 @@
+/target/
+.checkstyle
+.settings/
+.vscode/
+.project
+src/main/web/src/out/
+src/main/web/out/

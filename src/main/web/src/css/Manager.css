@@ -1,0 +1,38 @@
+.manager{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+.manager .manager-interface{
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+}
+.manager .employee-navbar {
+    flex-direction:row !important;
+    border-top:1px solid white;
+    margin-bottom: 0;
+    text-align:center;
+    justify-content:space-around;
+    z-index:20;
+}
+.manager nav>* {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+}
+.manager .content{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  flex-basis: 0;
+  overflow: auto;
+}

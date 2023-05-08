@@ -1,0 +1,141 @@
+.popup-target {
+	position: fixed;
+	z-index: 20;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+		transition: opacity ease 250ms;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: center;
+	background-color: #0000009f;
+	backdrop-filter: blur(5px);
+}
+
+
+
+
+@keyframes left-in {
+	from {
+		transform: translateX(-100%)
+	}
+
+	to {
+		transform: none
+	}
+}
+@keyframes left-out {
+	from {
+		transform: none
+	}
+
+	to {
+		transform: translateX(-100%)
+	}
+}
+
+@keyframes center-in {
+	from {
+		transform: scale(0.1)
+	}
+
+	to {
+		transform: none
+	}
+}
+@keyframes center-out {
+	from {
+		transform: none
+	}
+
+	to {
+		transform: scale(0.1)
+	}
+}
+
+.popup-target.hidden {
+	pointer-events: none;
+		opacity: 0;
+}
+
+.popup-target.shown {
+	pointer-events: auto;
+		opacity: 1;
+}
+
+.popup-target.hidden.left>* {
+	animation-name: left-out;
+
+}
+
+.popup-target.shown.left>* {
+	animation-name: left-in;
+}
+
+.popup-target.hidden.center>* {
+	animation-name: center-out;
+
+}
+
+.popup-target.shown.center>* {
+	animation-name: center-in;
+}
+
+.popup-target>* {
+	animation-fill-mode: both;
+	animation-duration: 250ms;
+	animation-timing-function: ease;
+	box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.75);
+	flex-grow: 1;
+	flex-shrink: 1;
+	max-height: 100vh;
+	/* don't allow for any overflow  */
+	max-width: 100vw;
+	box-sizing: border-box;
+	transition: transform ease 250ms;
+}
+
+/*adjusts lightbox to specific width between mobile size and 750px */
+@media screen and (min-width: 500px) {
+
+	.popup-target.left {
+		align-items: flex-start;
+		max-width: 100vw;
+	}
+	.popup-target.center>* {
+		border-radius: 5px;
+		flex-grow: 0;
+		/* it doesn't need to be taller than its contents */
+	}
+
+	.popup-target.center {
+		padding: 10vh 20vw;
+	}
+}
+
+@media screen and (min-width: 630px) {
+	.popup-target.center {
+		padding: 10vh 25vw;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.popup-target.center {
+		padding: 10vh 30vw;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	.popup-target.center {
+		padding: 15vh 30vw;
+	}
+}
+
+@media screen and (max-height: 600px) {
+	.popup-target.shown {
+		padding-top: 0 !important;
+		padding-bottom: 0 !important;
+	}
+}

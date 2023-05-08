@@ -1,0 +1,57 @@
+.item-on-menu {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: space-between;
+
+	padding: 2px;
+
+}
+
+.menu-inner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.order-item .icons>* {
+	margin-right: 3px;
+}
+
+.order-item {
+	background-color: white;
+	border-radius: 3px;
+	padding: 0.4em;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	cursor: pointer;
+	max-height: 5em;
+	transition: max-height ease-out 0.8s, box-shadow ease-out 0.5s;
+}
+.order-item.removed{
+  background-color: rgb(255, 41, 41);
+  
+}
+.order-item h3 {
+	margin: 0em;
+}
+
+.order-item:hover{
+	box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.order-item p {
+	margin: 0;
+}
+
+.order-item .img {
+	height: 4em;
+	width: 4em;
+	border-radius: 2px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+
+}
+

@@ -1,0 +1,72 @@
+.kitchen {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10%;
+  position: relative;
+  overflow-y: auto;
+  min-height: 80vh;
+}
+
+.order-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.table-order>.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-order-item {
+  background-color: white;
+  border-radius: 3px;
+  padding: 0.8em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+  max-height: 5em;
+  transition: max-height ease-out 0.8s, box-shadow ease-out 0.5s;
+  flex-grow: 1;
+  padding: 2px;
+  border-color: turquoise;
+  border-style: solid;
+}
+
+.table-order-item>p {
+  flex-grow: 1;
+}
+
+.table-order-item>* {
+  margin: 0.6rem 0.4rem;
+}
+
+.order-section.done .table-order-item {
+  border-color: greenyellow !important;
+}
+
+.table-order-item:hover {
+  box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.order-details {
+  background-color: white;
+  min-height: 50vh;
+  min-width: 50;
+  z-index: 999;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+.hidden-submit {
+  display: none;
+}

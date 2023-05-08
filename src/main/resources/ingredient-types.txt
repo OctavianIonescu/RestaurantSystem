@@ -1,0 +1,32 @@
+1,Alcohol
+2,Bread
+3,Butter
+4,Cheese
+5,Chilli
+6,Chips
+7,Chocolate
+8,Corn Shells
+9,Cream
+10,Egg
+11,Fish
+12,Flat Bread
+13,Flavouring
+14,Flour
+15,Fruit
+16,Herb
+17,Juice
+18,Meat
+19,Milk
+20,Oil
+21,Pasta
+22,Paste
+23,Pepper
+24,Powder
+25,Salt
+26,Sauce
+27,Spice
+28,Sugar
+29,Sweetener
+30,Vegetable
+31,Vinegar
+32,Water

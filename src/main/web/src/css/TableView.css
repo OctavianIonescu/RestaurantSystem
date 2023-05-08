@@ -1,0 +1,89 @@
+.table_view {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10%;
+  overflow-y: auto;
+}
+
+.titleBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table_view>.tables {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1ch;
+  grid-row-gap: 1ch;
+  justify-content: center;
+  align-content: start;
+}
+
+.table_view .table {
+  background-color: white;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  max-height: 5em;
+  transition: max-height ease-out 0.8s, box-shadow ease-out 0.5s;
+  border: 4px solid;
+}
+
+.table_view .table:hover {
+  box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.table_view .table.grey {
+  background-color: rgb(68, 68, 68);
+  color: rgb(221, 221, 221);
+}
+
+.table_view .table.table_empty {
+  border-color: hsl(226, 90%, 45%);
+}
+
+.table_view .table.order_requested {
+  border-color: hsl(189, 90%, 45%);
+}
+
+.table_view .table.meal_ready_for_delivery {
+  border-color: hsl(337, 90%, 45%);
+}
+
+.table_view .table.meal_delivered {
+  border-color: hsl(27, 90%, 45%);
+}
+
+.table_view .table.meal_confirmed {
+  border-color: hsl(120, 90%, 45%);
+}
+
+.table_view .table.table_clear {
+  border-color: hsl(313, 90%, 45%);
+}
+
+
+@media screen and (max-width: 1300px) {
+  .table_view>.tables {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .table_view>.tables {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .table_view>.tables {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

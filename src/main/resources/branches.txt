@@ -1,0 +1,88 @@
+1,Avon,017896115353                          
+2,Bath and North East Somerset,01225615463   
+3,Bedfordshire,01234616357                   
+4,Bedford,01234615353                        
+5,Berkshire,01188315373                                  
+6,Blackburn with Darwen,01254610353                     
+7,Blackpool,01253685603                                 
+8,Bournemouth,01202915453                               
+9,Brighton and Hove,01273513951                         
+10,Bristol,011766353553                                  
+11,Buckinghamshire,01296639243                          
+12,Cambridgeshire,01223632365                           
+13,Cambridgeshire and Isle of Ely,01223413333           
+14,Central Bedfordshire,03008314359                     
+15,Cheshire,01606719123                                 
+16,Cheshire East,01260602383                            
+17,Cheshire West and Chester,01244915953                
+18,Cleveland,01287114350                                
+19,Cornwall,01872613354                                 
+20,Cumberland,01228315959                               
+21,Cumbria,01900685344                                  
+22,Darlington,01325618357                               
+23,Derby,01332315554                                    
+24,Devon,01392375354                                    
+25,Dorset,01305612769                                   
+26,East Sussex,01424245353                              
+27,Essex,01268616387                                    
+28,Gloucestershire,01452631354                          
+29,Greater London,02078612354                           
+30,Greater Manchester,01618715359                       
+31,Hampshire,02382615759                                
+32,Halton,01790635356                                   
+33,Hartlepool,01429315357                               
+34,Humberside,01482617350                               
+35,Huntingdon and Peterborough,01480612354              
+36,Huntingdonshire,01480415454                          
+37,Isle of Ely,01353235356                              
+38,Isle of Wight,01983415857                            
+39,Kent,01233613354                                     
+40,Kingston upon Hull,01482616354                       
+41,Lancashire,01524635355                               
+42,Leicestershire,01166615257                           
+43,Leicester,01166616157                                  
+44,Lincolnshire,01522213156                               
+45,London,02067615058                                     
+46,City of London,02066615257                           
+47,Luton,01582319458                                     
+48,Medway,01634412350                                     
+49,Merseyside,01518616255                               
+50,Middlesbrough,01642613281                            
+51,Middlesex,02066718293                                
+52,Milton Keynes,01908616759                            
+53,Northamptonshire,0160421234                         
+54,North East Lincolnshire,01522616432                  
+55,North Humberside,01482645259                         
+56,North Lincolnshire,01522625356                       
+57,North Somerset,01275635859                           
+58,Northumberland,01918635754                           
+59,North Yorkshire,01423613251                          
+60,Nottinghamshire,0115417254                          
+61,Nottingham,01157613253                               
+62,Oxfordshire,01865617258                              
+63,Soke of Peterborough,01733629257                     
+64,Peterborough,01733113267                             
+65,Plymouth,01752018254                                 
+66,Poole,01202632985                                      
+67,Portsmouth,02399814567                               
+68,Redcar and Cleveland,01642346743                     
+69,Rutland,01572212385                                  
+70,Shropshire,01743026207                               
+71,Somerset,01823016261                                   
+72,Southampton,02384615278                              
+73,South Humberside,01472856502                         
+74,South Gloucestershire,01454594072                    
+75,South Yorkshire,01146986073                          
+76,Staffordshire,01758647509                            
+77,Surrey,01483977501                                   
+78,Sussex,01273526213                                   
+79,Swindon,01793677766                                  
+80,Telford and Wrekin,01952656721                       
+81,Thurrock,01375617630                                 
+82,Torbay,01803785211                                   
+83,Tyne and Wear,01915666680                            
+84,Warrington,01925564439                               
+85,Warwickshire,01926605856                             
+86,West Midlands,01212510098                            
+87,Westmorland,01768318782                              
+88,West Sussex,01243628923

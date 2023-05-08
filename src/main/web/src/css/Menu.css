@@ -1,0 +1,48 @@
+.menu {
+	background-color: grey;
+	display: flex;
+	flex-direction: column;
+	padding: 1em 10%;
+	position: relative;
+	overflow-y: auto;
+}
+
+
+.menu nav>* {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+}
+
+nav {
+	display: flex;
+	color: white;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: black;
+	position: -webkit-sticky;
+	/* Safari */
+	position: sticky;
+	top: 15px;
+}
+
+@media screen and (min-width: 1000px) {
+	.menu nav {
+		flex-direction: column;
+		justify-content: flex-start;
+		margin-right: 2ch;
+		align-self: flex-start;
+	}
+
+	.menu {
+		flex-direction: row;
+	}
+}
+
+.menu>.category-container {
+	flex-grow: 1;
+}

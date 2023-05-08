@@ -1,0 +1,35 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.App{
+	display: grid;
+	 grid-template-columns: auto minmax(auto,25vw);
+	 grid-template-rows: min-content auto;
+	 grid-template-areas:
+	 "header header"
+	 "menu side";
+	position: fixed;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+}
+.App.hidden{
+	grid-template-columns: auto 0;
+}
+@media screen and (max-width: 700px) {
+	.App{
+		grid-template-columns: auto 0;
+	}
+}
+
+.App .menu{
+	grid-area: menu;
+}
+.App .side-basket{
+	grid-area: side;
+}
+.App .header{
+	grid-area: header;
+}

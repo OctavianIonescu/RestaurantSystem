@@ -1,0 +1,107 @@
+.lightbox {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.lightbox>.title {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.lightbox>.title>div{
+	display: flex;
+	flex-direction: row;
+
+}
+.lightbox>.title>div p{
+	margin: 0;
+	margin-right: 1.5ch;
+	
+}
+.lightbox>.pair {
+	display: flex;
+	flex-direction: row;
+}
+
+.lightbox>.pair>* {
+	flex-basis: auto;
+	max-width: 50%;
+	flex-grow: 1;
+}
+.lightbox>.pair>*:first-child{
+	margin-right: 5px;
+}
+
+@media only screen and (max-width: 700px) {
+	.lightbox>.pair {
+		flex-direction: column;
+	}
+	.lightbox>.pair>*{
+		max-width: unset;
+	}
+	.lightbox>.pair>*:first-child{
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+}
+
+
+.lightbox img {
+	max-width: 100%;
+	height: auto;
+}
+
+.lightbox .desc {
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+.lightbox>.ingredients {
+	margin:10px 0;
+}
+
+
+.lightbox .orderButtons {
+	display: flex;
+	flex-direction: row;
+	min-width: 100%;
+}
+
+.lightbox .orderButtons>* {
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.lightbox .amount {
+	flex-basis: auto;
+	flex-grow: 0;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.lightbox>.button-bar {
+	flex-grow: 1;
+	align-content: flex-end;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.lightbox>.button-bar>* {
+	flex-grow: 1;
+	flex-basis: 0;
+}
+
+.Collapsible__trigger {
+	display: block;
+	font-weight: 400;
+	text-decoration: none;
+	padding: 10px;
+	background: grey;
+	color: white;
+}

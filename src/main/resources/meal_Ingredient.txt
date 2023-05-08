@@ -1,0 +1,226 @@
+1,Chicken Breasts,108
+1,Spring Onions,90 
+1,Red Leicester, 140
+1,Jalapenos,35
+1,Tortilla Chips,200
+1,Coriander,60
+1,Salsa,150
+1,Tabasco,130 
+1,Sour Cream,120
+1,Guacamole,110  
+2,Shrimps,454
+2,Olive Oil,33 
+2,Cilantro,16 
+2,Parsely,50 
+2,Garlic,20 
+2,Lemon Juice,42 
+2,Salt,6
+2,Cayenne Pepper,6
+2,Chipotle,50
+2,Adobo,43
+2,Paprika,3  
+3,Chicken Wings,1000
+3,Olive Oil,14
+3,Salt,6
+3,Black Pepper,3
+3,Dates,56
+3,Chipotle,50
+3,Cumin,2
+3,Paprika,5
+3,Coconut Oil,26
+3,Apple Cider,60
+3,Water,60
+3,Cilantro,80
+3,Avocado,150
+3,Lime Juice,14
+4,Potatoes,272
+4,Olive Oil,33
+4,Garlic,9
+4,Onion Powder,2
+4,Salt,5
+4,Paprika,2
+4,Parmesan,60
+4,Parsely,3
+4,Black Pepper,2
+5,Flank Steak,900
+5,Black Pepper,3
+5,Orange Juice,125
+5,Salt,2
+5,Lime Juice,15
+5,White Vinegar,14
+5,Olive Oil,14
+5,Jalapenos,30
+5,Garlic,20
+5,Roma Tomatoes,200
+5,Cherry Tomatoes,200
+5,Red Onions,4
+5,Cilantro,80
+5,Avocado,300
+6,Chicken Breasts,162
+6,Onions,190
+6,Bay Leaves,12
+6,Garlic,10
+6,Water,30
+6,Salt,13
+6,Black Pepper,5
+6,Olive Oil,30
+6,Plain Flour,15
+6,Chilli Powder,32
+6,Onion Powder,8
+6,Cumin,4
+6,Chicken Broth,260
+6,Oaxaco,104
+6,Asadero,90
+6,Cilantro,80
+6,Sour Cream,100
+6,Lettuce,40
+6,Cotija,120
+6,Dried Oregano,4
+7,Chicken Breasts,200
+7,Onions,360
+7,Bell Pepper,444
+7,Lime Juice,30
+7,Chilli Powder,20
+7,Cumin,4
+7,Garlic,10
+7,Paprika,8
+7,Dried Oregano,10
+7,Salt,4
+7,Black Pepper,6
+7,Tortillas,180
+7,Sour Cream,110
+7,Avocado,140
+7,Roma Tomatoes,180
+7,Jalapenos,31
+7,Red Onions,63
+7,Olive Oil,30
+8,Tortillas,210
+8,Corn Starch,8
+8,Chilli Powder,18
+8,Salt,4
+8,Paprika,6
+8,Sugar,3
+8,Onion Powder,2
+8,Cumin,3
+8,Garlic,10
+8,Cayenne Pepper,5
+8,Olive Oil,30
+8,Cilantro,76
+8,Butter,30
+8,Red Onions,60
+8,Bell Pepper,40
+8,Onions,35
+8,Lime Juice,15
+8,Avocado,150
+8,Round Beef,240
+9,Round Beef,260
+9,Soy Sauce,57
+9,Rice Wine,15
+9,Corn Starch,9
+9,Vegetable Oil,15
+9,Onions,30
+9,Bell Pepper,175
+9,Black Pepper,11
+9,Red Pepper Flakes,12
+10,Lasagna Sheets,350
+10,Olive Oil,10
+10,Ground Beef,400
+10,Garlic,15
+10,Dried Oregano,10
+10,Salt,4
+10,Black Pepper,6
+10,Ricotta,150
+10,Parmesan,80
+10,Parsely,50
+10,Egg,58
+10,Mozzarella,180
+10,Tomatoes,200
+10,Onions,60
+10,Red Pepper Flakes,43 
+11,Ground Beef,300
+11,Garlic,18
+11,Bread Crumbs,150
+11,Egg,58
+11,Coriander,6
+11,Cumin,6
+11,Cinnamon,6
+11,Cloves,6
+11,Paprika,10
+11,Salt,2
+11,Black Pepper,2
+11,Cheddar,20
+11,Hamburger Buns,67
+11,Guacamole,125
+11,Tomatoes,68
+11,Red Onions,56
+11,Parsely,30
+11,Red Chilli,15
+12,Tacos,306
+12,Guacamole,160
+12,Cilantro,46
+12,Olive Oil,15
+12,Pork Shoulder,660
+12,Salt,5
+12,Orange Juice,160
+12,Beer,370
+12,Garlic,20
+12,Chilli Powder,15
+12,Cumin,10
+12,Dried Oregano,12
+12,Onions,40
+12,Tomatoes,67
+13,Tortillas,210
+13,Apple,182
+13,Cinnamon,15
+13,Butter,60
+13,Sugar,60
+13,Brown Sugar,60
+13,Water,50
+14,Condensed Milk,137
+14,Evaporated Milk,110
+14,Vanilla Extract,5
+14,Sugar,75
+14,Water,20
+14,Egg,60
+14,Cream Cheese,85
+15,Plain Flour,130
+15,Butter,26
+15,Sugar,34
+15,Salt,3
+15,Egg,56
+15,Vanilla Extract,10
+15,Vegetable Oil,6
+15,Cinnamon,8
+15,Water,105
+16,Plain Flour,156
+16,Milk,52
+16,Sugar,8
+16,Cinnamon,5
+16,Salt,2
+16,Vegetable Oil,7
+16,Honey,25
+16,Baking Powder,8
+23,Double Cream,350
+23,Milk,64
+23,Condensed Milk,245
+23,Sugar,35
+23,Vanilla Extract,10
+23,Salt,5
+24,Butter,185
+24,Dark Chocolate,185
+24,Plain Flour,85
+24,Cocoa Powder,40
+24,White Chocolate,50
+24,Milk Chocolate,50
+24,Egg,140
+24,Sugar,275
+25,Red Cabbage,350
+25,Green Cabbage,240
+25,Bell Pepper,135
+25,Cilantro,67
+25,Red Onions,58
+25,White Vinegar,33
+25,Olive Oil,13
+25,Lime Juice,12
+25,Salt,3
+25,Cumin,5

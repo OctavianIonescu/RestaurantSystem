@@ -1,0 +1,8 @@
+{
+    "type": "array",
+    "items": {
+        "type": "number"
+    },
+    "uniqueItems": true,
+    "minItems": 1
+}

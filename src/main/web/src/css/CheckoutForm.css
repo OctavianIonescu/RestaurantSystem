@@ -1,0 +1,63 @@
+.paymentDetails {
+  background-color: white;
+  color: black;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 20px;
+}
+
+.paymentDetails>form>.spacer {
+  flex-grow: 1;
+}
+
+.paymentDetails>form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-grow: 1;
+}
+
+.paymentDetails>form>.button-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.paymentDetails>form>.button-bar>* {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.paymentDetails .item-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  align-items: center;
+  justify-items: start;
+  margin: 10px 0;
+}
+
+.paymentDetails .item-grid>* {
+  margin: 0;
+}
+
+.paymentDetails .button-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.paymentDetails .finalPrice {
+  grid-column-start: 4;
+}
+
+.paymentDetails .item-grid span {
+  user-select: none;
+  cursor: pointer;
+  justify-self: center;
+}

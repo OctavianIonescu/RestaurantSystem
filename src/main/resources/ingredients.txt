@@ -1,0 +1,93 @@
+Chicken Breasts,18,false,165
+Spring Onions,30,false,32
+Red Leicester,4,true,400
+Jalapenos,23,false,28
+Tortilla Chips,6,false,465
+Coriander,16,false,4
+Salsa,26,false,36
+Tabasco,26,false,143
+Sour Cream,9,true,193
+Shrimps,11,true,99
+Olive Oil,20,false,884
+Lemon Juice,17,false,22
+Bell Pepper,23,false,31
+Salt,25,false,0
+Garlic,30,false,149
+Cilantro,16,false,4
+Parsely,16,false,36
+Black Pepper,27,false,251
+Cayenne Pepper,23,false,318
+Paprika,27,false,282
+Chipotle,23,false,20
+Adobo,26,false,271
+Mayonaise,26,true,680
+Cumin,27,false,375
+Dates,15,false,282
+Coconut Oil,20,false,862
+Apple Cider,31,false,22
+Water,32,false,0
+Avocado,15,false,160
+Lime Juice,17,false,25
+Chicken Wings,18,false,203
+Potatoes,30,false,75
+Onion Powder,27,false,341
+Parmesan,4,false,35
+Orange Juice,17,false,45
+White Vinegar,31,false,18
+Flank Steak,18,false,192
+Roma Tomatoes,30,false,18
+Cherry Tomatoes,30,false,18
+Red Onions,30,false,37
+Oaxaco,4,true,354
+Asadero,4,true,356
+Bay Leaves,27,false,314
+Chilli Powder,27,false,282
+Dried Oregano,27,false,265
+Chicken Broth,18,false,267
+Tomato Paste,22,false,82
+Plain Flour,14,false,364
+Tortillas,12,false,312
+Bread Crumbs,2,false,4
+Lettuce,30,false,15
+Cotija,4,false,366
+Onions,30,false,40
+Corn Starch,14,false,381
+Sugar,29,false,387
+Ground Beef,18,false,332
+Round Beef,18,false,182
+Butter,3,false,717
+Soy Sauce,26,false,53
+Rice Wine,1,false,132
+Vegetable Oil,20,false,884
+Red Pepper Flakes,27,false,318
+Lasagna Sheets,21,false,135
+Ricotta,4,false,174
+Cheddar,4,false,174
+Egg,10,true,155
+Mozzarella,4,true,280
+Tomatoes,30,false,18
+Cinnamon,27,false,247
+Cloves,27,false,323
+Hamburger Buns,2,false,279
+Red Chilli,5,false,40
+Pork Shoulder,18,false,269
+Guacamole,26,false,157
+Tacos,8,false,226
+Apple,15,false,52
+Brown Sugar,28,false,380
+Vanilla Extract,13,false,288
+Evaporated Milk,19,true,134
+Condensed Milk,19,true,321
+Cream Cheese,4,true,342
+Milk Chocolate,7,false,535
+Milk,19,true,42
+Baking Powder,24,false,53
+Double Cream,9,true,467
+Honey,29,false,304
+Cocoa Powder,7,false,228
+White Chocolate,7,false,539
+Dark Chocolate,7,false,505
+Red Cabbage,30,false,31
+Beer,1,false,44
+Green Cabbage,30,false,27
+Carrots,30,false,41

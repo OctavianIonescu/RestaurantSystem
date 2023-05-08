@@ -1,0 +1,26 @@
+.category>div{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap:1ch;
+	grid-row-gap:1ch;
+	justify-content:center;
+	align-content: start; 
+}
+
+@media screen and (max-width: 1300px) {
+  .category>div{
+  	grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .category>div{
+  	grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .category>div{
+  	grid-template-columns: repeat(1, 1fr);
+  }
+}

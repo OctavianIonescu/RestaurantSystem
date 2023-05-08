@@ -1,0 +1,50 @@
+.filter-bar {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  align-content: stretch;
+}
+.filter-bar .filters {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: auto;
+  flex-direction: column;
+}
+.filter-bar .filters .opts{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  flex-basis: 0;
+  font-weight: bold;
+  text-align: left;
+  overflow-y: auto;
+}
+.filter-bar .filters .opts *{
+  margin-bottom: 3px;
+  display: flex;
+  align-content: center;
+}
+.filter-bar input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.filter-bar .button-bar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filter-bar .button-bar>*{
+    flex-grow: 1;
+}
+@media screen and (max-width: 500px) {
+  .filter-bar {
+    right:0;
+  }
+}
